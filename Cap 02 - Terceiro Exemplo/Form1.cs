@@ -28,7 +28,16 @@ namespace Cap_02___Terceiro_Exemplo
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            int count = 0;
+            while (count < 10)
+            {
+                count = count + 1;
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                count = count - 1;
+            }
+            MessageBox.Show("O resultado é: " + count);
         }
 
         private void button2_Click(object sender, EventArgs e)
